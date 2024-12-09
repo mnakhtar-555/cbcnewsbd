@@ -593,6 +593,8 @@ a{
     margin-bottom: 10px;
   }
 
+  .cbc-news-sidebar .sidebar-card h4{ padding-bottom: 20px;}
+
   .cbc-news-sidebar .sidebar-card .recent-post-widget .recent-post-img {
     max-width: 80px;
     height: 80px;
