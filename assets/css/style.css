@@ -578,4 +578,78 @@ a{
     }
 }
 
+/* Widget Style */
+.cbc-news-sidebar .sidebar-card {
+    padding: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(var(--primary-color-opc),0.1);
+    background-color: #faf9f9;
+  }
 
+  .cbc-news-sidebar .sidebar-card .recent-post-widget {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+
+  .cbc-news-sidebar .sidebar-card .recent-post-widget .recent-post-img {
+    max-width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .cbc-news-sidebar .sidebar-card .recent-post-widget .recent-post-content {
+    line-height: 1;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .cbc-news-sidebar .sidebar-card .category-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .cbc-news-sidebar .sidebar-card .category-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    transition: .5s;
+  }
+
+  .cbc-news-sidebar .widget-title {
+    color: var(--title-color);
+    font-family: var(--font-syne);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: .9;
+    letter-spacing: .4px;
+    border-bottom: 1px solid var(--title-color);
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .cbc-news-sidebar .sidebar-card .category-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+    transition: .5s;
+  }
+  .cbc-news-sidebar .sidebar-card .category-list li a span {
+    color: rgba(var(--title-color-opc),0.7);
+    font-family: var(--font-syne);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }

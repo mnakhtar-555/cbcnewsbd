@@ -233,3 +233,10 @@ function modify_category_archive_query( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'modify_category_archive_query' );
+
+
+
+// Include Required FILES here
+if( file_exists( dirname( __FILE__ ) . '/inc/widgets/widgets.php' ) ){
+    require_once( dirname( __FILE__ ) . '/inc/widgets/widgets.php' );
+}
