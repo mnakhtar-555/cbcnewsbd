@@ -116,9 +116,10 @@
                 ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						<a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -146,9 +147,10 @@
                 ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -176,9 +178,10 @@
                   ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -206,9 +209,10 @@
                     ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -236,9 +240,10 @@
                     ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -266,9 +271,10 @@
                     ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -296,9 +302,10 @@
                     ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -326,9 +333,10 @@
                     ?>
                   <div class="col-md-4">
                     <div class="cbc-news-card">
-                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
-                      <!-- <img src="" alt="" class="cbc-news-thumbnail"> -->
-                      <h3 class="cbc-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <a href="<?php the_permalink(); ?>">
+                        	<?php the_post_thumbnail('post-thumbnail', ['class' => 'cbc-news-thumbnail']);  ?>
+                      		<h3 class="cbc-news-title"><?php the_title(); ?></h3>
+						</a>
                     </div>
                   </div>
                   <?php endwhile; wp_reset_postdata(); ?>
@@ -363,40 +371,5 @@
       </div>
     </div>
   </main>
-
-  <!-- News Marquee -->
-  <div class="marquee-section">
-  <span class="marquee-heading">আপডেট খবরঃ</span>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="news-mq-wrapper">
-                        <div class="news-mq-area">
-                            <div class="marquee_text2">
-                            <?php
-                              $args = array(
-                                  'post_type'      => 'news',
-                                  'posts_per_page' => -1,
-                                  'tax_query'      => array(
-                                      array(
-                                          'taxonomy' => 'news_category',
-                                          'field'    => 'slug',
-                                          'terms'    => 'top-news', 
-                                      ),
-                                  ),
-                              );
-                              $marquee_items = new WP_Query( $args );
-                              while( $marquee_items->have_posts() ): $marquee_items->the_post();
-                            ?>
-                              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> 
-                              <?php endwhile; wp_reset_postdata();?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  <!-- News Marquee Ends -->
 
   <?php get_footer(); ?>

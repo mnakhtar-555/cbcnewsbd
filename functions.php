@@ -219,6 +219,15 @@ function cbcnewsbd_widgets_register(){
             'after_widget'  => '</div>',
             'before_title'  => '<h4>',
             'after_title'   => '</h4>'
+        )        
+    );
+
+    register_sidebar(
+        array(
+            'name'          => __( 'CBC News Footer Bottom', 'cbcnews' ),
+            'id'            => 'cbcnews-footer-bottom',
+            'before_widget' => '<ul>',
+            'after_widget'  => '</ul>'
         )
     );
 }

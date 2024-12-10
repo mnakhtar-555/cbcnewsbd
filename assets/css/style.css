@@ -325,9 +325,9 @@ a{
     gap: 30px;
 }
 
+main{ padding-bottom: 50px; }
 .cbc-newses{margin: 0; }
 .section-top{
-    /* background-color: rgb(1, 88, 1); */
     position: relative;
 }
 .section-top h3 span{
@@ -363,10 +363,10 @@ a{
     max-height: 240px;
 }
 .cbc-news-card h3{ text-align: justify;}
-.cbc-news-card h3 a{
+.cbc-news-card h3 {
     font-size: 18px;
     color: #000;
-    text-decoration: none;
+    padding-top: 15px;
 }
 .navbar .navbar-brand{
     font-size: 20px;
@@ -500,7 +500,13 @@ a{
     text-align: center;
 }
 .taxonomy-posts .taxonomy-post-item h3 a{
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+.taxonomy-post-item p{ 
+    text-align: justify;
+    line-height: 1.7;
 }
 
 /* Footer Section */
@@ -510,9 +516,23 @@ a{
     padding: 50px 0;
     color: #fff;
 }
+.footer .editors-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .footer h4{
     font-size: 18px;
     font-weight: 600;
+}
+.footer-widget h4::after{
+    content: "";
+    bottom: 0;
+    border-bottom: 1px solid #adadad;
+    border-radius: 5px;
+    display: block;
+    width: 60px;
+    margin-top: 5px;
 }
 .footer ul li:not(:last-child){
     margin-bottom: 8px;
@@ -575,6 +595,20 @@ a{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    .footer-bottom ul li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer-bottom ul li:last-child{ margin-bottom: 0; }
+    .marquee-heading{
+        bottom: 40px;    
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -655,3 +689,6 @@ a{
     align-items: center;
     gap: 8px;
   }
+
+
+  /* Responsive Menu Style */

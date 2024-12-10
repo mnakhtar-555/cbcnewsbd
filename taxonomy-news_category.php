@@ -22,10 +22,10 @@ get_header();
                     ?>
                         <div class="col-md-4">
                             <div class="taxonomy-post-item">
+                                <?php the_post_thumbnail(); ?>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                <div class="post-excerpt">
-                                    <?php the_excerpt(); ?>
-                                </div>
+                                <?php $bistarito = "<a href='" . get_permalink() . "' class='read-more'>....বাকী অংশ</a>"; ?>
+                                <p><?php echo wp_trim_words( get_the_content(), 40, $bistarito ); ?></p>
                             </div>
                         </div>
                     <?php

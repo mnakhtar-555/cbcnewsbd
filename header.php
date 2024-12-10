@@ -20,6 +20,7 @@
             <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
             <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
             <li><a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank"><i class="bi bi-youtube"></i></a></li>
           </ul>
         </div>
     </div>
